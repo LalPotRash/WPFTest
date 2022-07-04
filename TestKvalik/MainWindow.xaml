@@ -1,0 +1,33 @@
+﻿<Window x:Class="TestKvalik.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:TestKvalik"
+        mc:Ignorable="d"
+        Title="Beauty"
+        Height="450"
+        Width="800"
+        Icon="/Resources/beauty_logo.ico">
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="auto" />
+            <RowDefinition />
+        </Grid.RowDefinitions>
+        
+        <StackPanel Orientation="Horizontal"
+                    Background="#e1e4ff">
+            <Image Source="/Resources/beauty_logo.png"
+                   Width="50"
+                   Height="50"
+                   Margin="5" />
+            <TextBlock Text="Beauty"
+                       VerticalAlignment="Center"
+                       FontSize="35" />
+        </StackPanel>
+
+        <Frame Grid.Row="1"
+               Name="FrmNav"
+               NavigationUIVisibility="Hidden" />
+    </Grid>
+</Window>

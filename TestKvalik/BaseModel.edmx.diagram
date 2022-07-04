@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="a1209171b0974a77921feea6bf3f1289" Name="Diagram1">
+        <EntityTypeShape EntityType="TestKvalikModel.Services" Width="1.5" PointX="8.125" PointY="2.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="TestKvalikModel.Sexes" Width="1.5" PointX="0.75" PointY="1.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="TestKvalikModel.sysdiagrams" Width="1.5" PointX="5.75" PointY="4.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="TestKvalikModel.Users" Width="1.5" PointX="3" PointY="1" IsExpanded="true" />
+        <EntityTypeShape EntityType="TestKvalikModel.Work" Width="1.5" PointX="5.25" PointY="1.625" IsExpanded="true" />
+        <AssociationConnector Association="TestKvalikModel.FK_Work_Services" ManuallyRouted="false" />
+        <AssociationConnector Association="TestKvalikModel.FK_Users_Sexes" ManuallyRouted="false" />
+        <AssociationConnector Association="TestKvalikModel.FK_Work_Users" ManuallyRouted="true" >
+          <ConnectorPoint PointX="4.5" PointY="1.7569436158888707" />
+          <ConnectorPoint PointX="4.581675" PointY="1.7291666027191082" />
+          <ConnectorPoint PointX="5.0025" PointY="1.7291666027191082" />
+          <ConnectorPoint PointX="5.0025" PointY="2.6041667070272365" />
+          <ConnectorPoint PointX="5.25" PointY="2.6041667070272365" />
+        </AssociationConnector>
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>
